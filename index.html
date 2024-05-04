@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script src="
+      https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    </script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-1970-2030.min.js"></script>
+
+
+    <title>World Clock - Nthabiseng Monageng</title>
+    
+</head>
+
+<body>
+    <div class="container">
+        <h1>World Clock</h1>
+
+        <select  id="city" >
+            <option value="">Select a City</option>
+            <option value="current">Current Location</option>
+            <option value="Asia/Tokyo">Tokyo</option>
+            <option value="Europe/London">London</option>
+            <option value="Australia/Sydney">Sydney</option>
+            <option value="Pacific/Honolulu">Honolulu</option>
+            <option value="America/Guayaquil">Guayaquil</option>
+            <option value="America/El_Salvador">El Salvador</option>
+        </select>
+
+        <div id="cities">
+            <div class="city" id="new-york">
+                <div>
+                    <h2>New York </h2>
+                    
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+        
+            <div class="city" id="madrid">
+                <div>
+                    <h2>Madrid </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+        
+            <div class="city" id="london">
+                <div>
+                    <h2>London </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+        
+            <div class="city" id="tokyo">
+                <div>
+                    <h2>Tokyo </h2>
+                    <div class="date"></div>
+                </div>
+                <div class="time"></div>
+            </div>
+        
+        </div>
+    </div>
+    <footer>
+        Coded by <strong>Nthabiseng Monageng</strong> and is open sourced on
+        <a href="https://github.com/Nthabi23/world-clock" target="_blank">GitHub</a> and hosted on <a href="https://resplendent-truffle-999a38.netlify.app/" target="_blank">Netlify</a>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
